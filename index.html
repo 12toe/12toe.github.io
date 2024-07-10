@@ -72,6 +72,27 @@
         a:hover {
             text-decoration: underline; /* Underline on hover */
         }
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar a {
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+            table {
+                width: 100%;
+            }
+            th, td {
+                padding: 5px;
+                font-size: 0.9em;
+            }
+            .thumbnail {
+                width: 60px; /* Adjust size for mobile */
+            }
+        }
     </style>
 </head>
 <body>
