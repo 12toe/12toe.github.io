@@ -29,6 +29,24 @@
             font-size: 1.2em;
             color: gray;
         }
+                .navbar {
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 10px 0;
+            background-color: #444;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
         table {
             width: 50%;
             border-collapse: collapse;
@@ -47,6 +65,12 @@
         .project-title {
             font-weight: bold;
         }
+        a {
+            color: inherit; /* Keeps the text color the same */
+            text-decoration: none; /* Removes underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
         }
     </style>
 </head>
@@ -56,22 +80,52 @@
 
     <div class="name">Braeden Whitla</div>
     <div class="job-title">Concept Artist & Illustrator</div>
+      <div class="navbar">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+    </div>
     <p>
     <div>PROJECTS</div>
     <p>
     <table>
         <tr>
-            <td><img src="pfp_01.png" alt="Project 1" class="thumbnail"></td>
             <td>
-                <div class="project-title">Zelda 1-3</div>
+                <a href="project1.html">
+                    <img src="pfp_01.png" alt="Project 1" class="thumbnail">
+                </a>
+            </td>
+            <td>
+                <a href="project1.html">
+                    <div class="project-title">Zelda 1-3</div>
+                </a>
                 <div>I've finally been making some progress on this project in 2019. While I hold Zelda 1 in high regard in terms of game design, I'm older now and have lost some of my interest in games. This project is turning into some kind of manga thing instead because I still enjoy noodling with world design.</div>
             </td>
         </tr>
         <tr>
-            <td><img src="pfp_01.png" alt="Project 2" class="thumbnail"></td>
             <td>
-                <div class="project-title">Metroid 1</div>
-                <div>The only Metroid game which counts. I don't know what you young whippersnappers are doing with your 16 bits and 3D polygons but I don't like it one bit! Back in my day we got lost in a maze of twisty little passages, all alike.</div>
+                <a href="project2.html">
+                    <img src="pfp_01.png" alt="Project 2" class="thumbnail">
+                </a>
+            </td>
+            <td>
+                <a href="project2.html">
+                    <div class="project-title">Zelda 1-3</div>
+                </a>
+                <div>I've finally been making some progress on this project in 2019. While I hold Zelda 1 in high regard in terms of game design, I'm older now and have lost some of my interest in games. This project is turning into some kind of manga thing instead because I still enjoy noodling with world design.</div>
+            </td>
+        <tr>
+            <td>
+                <a href="project3.html">
+                    <img src="thumbnail1.jpg" alt="Project 3" class="thumbnail">
+                </a>
+            </td>
+            <td>
+                <a href="project3.html">
+                    <div class="project-title">TEST</div>
+                </a>
+                <div>This is a short description.</div>
             </td>
         </tr>
         <!-- Repeat for other projects -->
