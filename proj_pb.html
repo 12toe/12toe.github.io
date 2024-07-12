@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_01.ico" type="image/x-icon">
+    <title>Braeden Whitla's (12toe) Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #333; /* Dark gray background color */
+            color: #fff; /* White text color */
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .name {
+            font-family: 'Monsterrat', sans-serif;
+            font-weight: bold;
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        .job-title {
+            font-family: 'Monsterrat', sans-serif;
+            font-size: 1.2em;
+            color: gray;
+        }
+        .navbar {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 10px 0;
+            background-color: #444;
+            border-radius: 10px;
+
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #fff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .thumbnail {
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+        }
+        .project-title {
+            font-weight: bold;
+        }
+        img.rightfloat{
+	        float: right;
+	        margin: 4px 0px 4px 10px !important;
+        }
+        img.leftfloat{
+	        float: left;
+	        margin: 4px 10px 4px 0px !important;
+        }
+        img.centerfloat{
+	        float: center !important;
+        }
+        a {
+            color: inherit; /* Keeps the text color the same */
+            text-decoration: none; /* Removes underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+            .content-box {
+            width: 80%;
+            max-width: 800px; /* Set a maximum width */
+            border-radius: 10px;
+            /*max-height: 500px;*/
+            /*overflow-y: auto;*/
+            padding: 20px;
+            background-color: #222;
+            border: 1px solid #fff;
+            margin-top: 20px;
+        }
+        .content-box img {
+            max-width: 100%; /* Ensure images do not exceed the width of the content box */
+            height: auto;
+            margin: 10px 0;
+        }
+        .content-box p {
+            word-wrap: break-word; /* Ensure text doesn't overflow */
+        }
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar a {
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+            .content-box {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html">
+    <img src="pfp_01.png" alt="Green-hooded character" class="profile-picture">
+    </a>
+
+    <div class="name">BRAEDEN WHITLA</div>
+    <div class="job-title">CONCEPT ART & ILLUSTRATION</div>
+      <div class="navbar">
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="https://12toe.gumroad.com/" target="_blank">STORE</a>
+    </div>
+    <div>THE POCKET BOOK</div>
+    <div class="content-box">
+        <h1>THE POCKET BOOK</h1>
+        <h2>A real pocketable notebook, smartphone sized.</h2>
+            <img src="pocketbook_promo_01.jpg" alt="The Pocket Book Promo" class="rightfloat" width="360">
+        <p><b>The Pocket Book</b> is a product that started development in the early 2021s. As an avid user of sketchbooks on the regular, I was no stranger to books of various sizes. However, the one thing that irked me the most was the so-called "pocket" sized notebooks. Books under this label are either: 3.5"x5.5", 4.1"x5.8" (A6), 4.9"x6.9" (B6). Limited to the standard sizes. And any book that was actually 3"x5", they opened on the short-end like a reporter's notebook.</p>
+        <p>I wanted something that I could take with me as often as I carry my phone. Yet nothing out there that was pre-existing was what I was looking for -a notebook that was slim enough to fit in my pocket. If our phones have adapted to the pocket, why haven't our notebooks? And so I decided to take matters into my own hands -pockets for that matter.</p>
+        <p>If you are interested in purchasing a Pocket Book, follow the link below to my store:</p>
+        <a href="https://12toe.gumroad.com/" target="_blank" style="color: Cyan; text-align: center;">STORE</p></a>
+        <p></p>
+        <p>For the complete story and background to the development and creation of The Pocket Book, click the link below for more:</p>
+        <a href="proj_pb_detail.html" target="_blank" style="color: Cyan; text-align: center;">The Making of The Pocket Book</p></a>
+    </div>
+</body>
+</html>
